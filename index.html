@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ИИ: манга-конспект — QAIRU</title>
+  <meta name="description" content="Курс по искусственному интеллекту в формате манги: агенты, поиск, эвристики, игры, логика, Байес, MDP, обучение с подкреплением.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="progress"><div class="progress__bar" id="progress"></div></div>
+
+<header class="cover">
+  <div class="cover__inner">
+    <p class="cover__kicker">QAIRU · конспект в картинках</p>
+    <h1 class="cover__title">Искусственный<br>интеллект</h1>
+    <p class="cover__sub">Манга-конспект из девяти страниц: от теста Тьюринга до обучения с подкреплением.</p>
+    <div class="cover__meta">
+      <span>9 страниц</span>
+      <span>≈ 6 минут</span>
+      <span>русский</span>
+    </div>
+    <a class="cover__btn" href="#page-1">Начать читать</a>
+  </div>
+</header>
+
+<main class="reader" id="reader">
+
+  <section class="page" id="page-1" aria-label="Страница 1">
+    <span class="page__num">01</span>
+    <img src="assets/img/01-intro.webp" alt="Введение в ИИ: тест Тьюринга, нейросети и шахматы" loading="eager" width="1376" height="768">
+    <p class="page__caption">С чего всё началось: правила, тест Тьюринга и первые задачи.</p>
+  </section>
+
+  <section class="page" id="page-2" aria-label="Страница 2">
+    <span class="page__num">02</span>
+    <img src="assets/img/02-agents.webp" alt="Агенты и среды: датчики, агент, актуаторы, среда" loading="lazy" width="1376" height="768">
+    <p class="page__caption">Агент видит среду датчиками и меняет её актуаторами.</p>
+  </section>
+
+  <section class="page" id="page-3" aria-label="Страница 3">
+    <span class="page__num">03</span>
+    <img src="assets/img/03-search.webp" alt="Поиск в пространстве состояний: деревья BFS и DFS" loading="lazy" width="1376" height="768">
+    <p class="page__caption">BFS идёт по уровням, DFS уходит в глубину ветки.</p>
+  </section>
+
+  <section class="page" id="page-4" aria-label="Страница 4">
+    <span class="page__num">04</span>
+    <img src="assets/img/04-heuristic.webp" alt="Эвристика и алгоритм A*: f(n) = g(n) + h(n)" loading="lazy" width="1376" height="768">
+    <p class="page__caption">A* не перебирает всё: эвристика отсекает лишние пути.</p>
+  </section>
+
+  <section class="page" id="page-5" aria-label="Страница 5">
+    <span class="page__num">05</span>
+    <img src="assets/img/05-games.webp" alt="Игры: минимакс и альфа-бета отсечение" loading="lazy" width="1376" height="768">
+    <p class="page__caption">Минимакс считает выгоду, альфа-бета выбрасывает глупые ветки.</p>
+  </section>
+
+  <section class="page" id="page-6" aria-label="Страница 6">
+    <span class="page__num">06</span>
+    <img src="assets/img/06-logic.webp" alt="Логика и база знаний: граф знаний" loading="lazy" width="1376" height="768">
+    <p class="page__caption">Правила и факты дают новые выводы — это база знаний.</p>
+  </section>
+
+  <section class="page" id="page-7" aria-label="Страница 7">
+    <span class="page__num">07</span>
+    <img src="assets/img/07-bayes.webp" alt="Вероятности и формула Байеса" loading="lazy" width="1376" height="768">
+    <p class="page__caption">Байес пересчитывает вероятность, когда приходят новые улики.</p>
+  </section>
+
+  <section class="page" id="page-8" aria-label="Страница 8">
+    <span class="page__num">08</span>
+    <img src="assets/img/08-mdp.webp" alt="Марковские процессы принятия решений: состояние, действие, награда" loading="lazy" width="1376" height="768">
+    <p class="page__caption">MDP: состояние, действие, награда — и шаг за шагом к максимуму.</p>
+  </section>
+
+  <section class="page" id="page-9" aria-label="Страница 9">
+    <span class="page__num">09</span>
+    <img src="assets/img/09-rl.webp" alt="Обучение с подкреплением: штраф и награда" loading="lazy" width="1376" height="768">
+    <p class="page__caption">Обучение с подкреплением: ошибка — штраф, верный шаг — награда.</p>
+  </section>
+
+  <section class="end">
+    <p class="end__title">Конец конспекта</p>
+    <p class="end__text">Девять страниц — девять идей, на которых держится ИИ.</p>
+    <a class="end__link" href="#top">Наверх ↑</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>QAIRU · манга-конспект по искусственному интеллекту</p>
+  <p class="footer__hint">Листай стрелками ← → или пробелом</p>
+</footer>
+
+<script src="assets/js/reader.js"></script>
+</body>
+</html>
