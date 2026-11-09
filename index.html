@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ИИ: манга-конспект — QAIRU</title>
   <meta name="description" content="Курс по искусственному интеллекту в формате манги: агенты, поиск, эвристики, игры, логика, Байес, MDP, обучение с подкреплением.">
-  <link rel="stylesheet" href="assets/css/style.css?v=2">
+  <link rel="stylesheet" href="assets/css/style.css?v=3">
 </head>
 <body>
 
@@ -15,22 +15,29 @@
   <div class="cover__inner">
     <p class="cover__kicker">QAIRU · конспект в картинках</p>
     <h1 class="cover__title">Искусственный<br>интеллект</h1>
-    <p class="cover__sub">Манга-конспект из тридцати страниц. Авторы: Рыскадыр Бекнур и Ералы.: от теста Тьюринга до обучения с подкреплением.</p>
+    <p class="cover__sub">Манга-конспект: от теста Тьюринга до обучения с подкреплением.<br>Авторы: Рыскадыр Бекнур и Ералы.</p>
     <div class="cover__meta">
       <span>30 страниц</span>
       <span>≈ 20 минут</span>
       <span>русский</span>
     </div>
-    <a class="cover__btn" href="#page-1">Начать читать</a>
+    <a class="cover__btn" href="#page-canva">Начать читать</a>
   </div>
 </header>
 
 <main class="reader" id="reader">
 
-  <!-- ГЛАВА 1: ВВЕДЕНИЕ -->
+  <!-- СТРАНИЦА CANVA ОТ РЫСКАДЫРА -->
+  <section class="page" id="page-canva" aria-label="Страница Canva">
+    <span class="page__num">★</span>
+    <img src="assets/img/canva-page1.webp" alt="Манга от Рыскадыра Бекнура: Путь искусственного интеллекта" loading="eager" width="1414" height="2000">
+    <p class="page__caption">Страница от Рыскадыра Бекнура (Canva). Казахский текст, манга в стиле JoJo.</p>
+  </section>
+
+  <!-- МОИ СТРАНИЦЫ -->
   <section class="page" id="page-1">
     <span class="page__num">01</span>
-    <img src="assets/img/01-intro.webp" alt="Введение в ИИ" loading="eager" width="1376" height="768">
+    <img src="assets/img/01-intro.webp" alt="Введение в ИИ" loading="lazy" width="1376" height="768">
     <p class="page__caption">С чего всё началось: правила, тест Тьюринга и первые задачи.</p>
   </section>
 
@@ -47,7 +54,6 @@
     <p class="page__caption">После машины Тьюринга — первый ИИ-бум, затем зима, а потом ренессанс нейросетей.</p>
   </section>
 
-  <!-- ГЛАВА 2: АГЕНТЫ -->
   <section class="page" id="page-2">
     <span class="page__num">03</span>
     <img src="assets/img/02-agents.webp" alt="Агенты и среды" loading="lazy" width="1376" height="768">
@@ -67,7 +73,6 @@
     <p class="page__caption">По мере роста сложности агента растёт и сложность среды, с которой он справляется.</p>
   </section>
 
-  <!-- ГЛАВА 3: ПОИСК -->
   <section class="page" id="page-3">
     <span class="page__num">05</span>
     <img src="assets/img/03-search.webp" alt="Поиск в пространстве состояний" loading="lazy" width="1376" height="768">
@@ -87,7 +92,6 @@
     <p class="page__caption">DFS экономит память, но может уйти в тупик. BFS гарантирует кратчайший путь.</p>
   </section>
 
-  <!-- ГЛАВА 4: ЭВРИСТИКА -->
   <section class="page" id="page-4">
     <span class="page__num">07</span>
     <img src="assets/img/04-heuristic.webp" alt="Эвристика и A*" loading="lazy" width="1376" height="768">
@@ -120,7 +124,6 @@
     <p class="page__caption">Допустимая эвристика никогда не переоценивает расстояние до цели.</p>
   </section>
 
-  <!-- ГЛАВА 5: ИГРЫ -->
   <section class="page" id="page-5">
     <span class="page__num">10</span>
     <img src="assets/img/05-games.webp" alt="Игры: минимакс" loading="lazy" width="1376" height="768">
@@ -153,7 +156,6 @@
     <p class="page__caption">Альфа-бета не меняет результат минимакса, но сокращает перебираемые позиции в сотни раз.</p>
   </section>
 
-  <!-- ГЛАВА 6: ЛОГИКА -->
   <section class="page" id="page-6">
     <span class="page__num">13</span>
     <img src="assets/img/06-logic.webp" alt="Логика и база знаний" loading="lazy" width="1376" height="768">
@@ -186,7 +188,6 @@
     <p class="page__caption">Прямой вывод идёт от фактов к последствиям. Обратный — от цели к фактам.</p>
   </section>
 
-  <!-- ГЛАВА 7: БАЙЕС -->
   <section class="page" id="page-7">
     <span class="page__num">16</span>
     <img src="assets/img/07-bayes.webp" alt="Вероятности и Байес" loading="lazy" width="1376" height="768">
@@ -232,7 +233,6 @@
     <p class="page__caption">P(A|B) — итоговая вера после того, как увидели данные B.</p>
   </section>
 
-  <!-- ГЛАВА 8: MDP -->
   <section class="page" id="page-8">
     <span class="page__num">20</span>
     <img src="assets/img/08-mdp.webp" alt="Марковские процессы (MDP)" loading="lazy" width="1376" height="768">
@@ -278,7 +278,6 @@
     <p class="page__caption">R — функция награды. Агент стремится максимизировать суммарную награду, а не только ближайшую.</p>
   </section>
 
-  <!-- ГЛАВА 9: ОБУЧЕНИЕ С ПОДКРЕПЛЕНИЕМ -->
   <section class="page" id="page-9">
     <span class="page__num">24</span>
     <img src="assets/img/09-rl.webp" alt="Обучение с подкреплением" loading="lazy" width="1376" height="768">
@@ -337,7 +336,6 @@
     <p class="page__caption">π — политика. Оптимальная π* максимизирует ожидаемую суммарную награду.</p>
   </section>
 
-  <!-- ФИНАЛ -->
   <section class="page" id="page-29">
     <span class="page__num">29</span>
     <img src="assets/img/29.webp" alt="Финал курса" loading="lazy" width="1376" height="768">
