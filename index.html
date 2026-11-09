@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="kk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ИИ: манга-конспект — QAIRU</title>
-  <meta name="description" content="Курс по искусственному интеллекту в формате манги: агенты, поиск, эвристики, игры, логика, Байес, MDP, обучение с подкреплением.">
-  <link rel="stylesheet" href="assets/css/style.css?v=3">
+  <title>Жасанды интеллект әлеміне саяхат — QAIRU</title>
+  <meta name="description" content="Манга-конспект по ИИ: агенты, іздеу, эвристика, ойындар, логика, Байес, MDP, оқытуды күшейту. Авторы: Рыскадыр Бекнур и Ералы.">
+  <link rel="stylesheet" href="assets/css/style.css?v=4">
 </head>
 <body>
 
@@ -13,366 +13,181 @@
 
 <header class="cover">
   <div class="cover__inner">
-    <p class="cover__kicker">QAIRU · конспект в картинках</p>
-    <h1 class="cover__title">Искусственный<br>интеллект</h1>
-    <p class="cover__sub">Манга-конспект: от теста Тьюринга до обучения с подкреплением.<br>Авторы: Рыскадыр Бекнур и Ералы.</p>
+    <p class="cover__kicker">QAZAQ AI RESEARCH UNIVERSITY (QAIRU)</p>
+    <h1 class="cover__title">Жасанды<br>интеллект<br>әлеміне саяхат</h1>
+    <p class="cover__sub">Манга-конспект: алгоритмдерден нейрондық желілерге дейін.<br>Авторы: Рыскадыр Бекнур и Ералы.</p>
     <div class="cover__meta">
-      <span>30 страниц</span>
+      <span>30 бет</span>
       <span>≈ 20 минут</span>
-      <span>русский</span>
+      <span>қазақша</span>
     </div>
-    <a class="cover__btn" href="#page-canva">Начать читать</a>
+    <a class="cover__btn" href="#page-1">Оқуды бастау</a>
   </div>
 </header>
 
 <main class="reader" id="reader">
 
-  <!-- СТРАНИЦА CANVA ОТ РЫСКАДЫРА -->
-  <section class="page" id="page-canva" aria-label="Страница Canva">
-    <span class="page__num">★</span>
-    <img src="assets/img/canva-page1.webp" alt="Манга от Рыскадыра Бекнура: Путь искусственного интеллекта" loading="eager" width="1414" height="2000">
-    <p class="page__caption">Страница от Рыскадыра Бекнура (Canva). Казахский текст, манга в стиле JoJo.</p>
-  </section>
-
-  <!-- МОИ СТРАНИЦЫ -->
   <section class="page" id="page-1">
     <span class="page__num">01</span>
-    <img src="assets/img/01-intro.webp" alt="Введение в ИИ" loading="lazy" width="1376" height="768">
-    <p class="page__caption">С чего всё началось: правила, тест Тьюринга и первые задачи.</p>
-  </section>
-
-  <section class="page" id="page-10">
-    <span class="page__num">02</span>
-    <img src="assets/img/10.webp" alt="История ИИ" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">История ИИ</div>
-        <div class="page__speech">«Началось всё в 1950-м. Алан Тьюринг задал вопрос: может ли машина мыслить? С этого вопроса началась вся история ИИ.»</div>
-      </div>
-    </div>
-    <p class="page__caption">После машины Тьюринга — первый ИИ-бум, затем зима, а потом ренессанс нейросетей.</p>
+    <img src="assets/img/canva-01.webp" alt="Бет 1" loading="eager" width="904" height="1280">
   </section>
 
   <section class="page" id="page-2">
-    <span class="page__num">03</span>
-    <img src="assets/img/02-agents.webp" alt="Агенты и среды" loading="lazy" width="1376" height="768">
-    <p class="page__caption">Агент видит среду датчиками и меняет её актуаторами.</p>
-  </section>
-
-  <section class="page" id="page-11">
-    <span class="page__num">04</span>
-    <img src="assets/img/11.webp" alt="Агенты: типы" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">Типы агентов</div>
-        <div class="page__speech">«Агенты бывают разные. Простой реагирует так же, как датчик. Сложный — думает. Обучающийся — учится на ошибках.»</div>
-      </div>
-    </div>
-    <p class="page__caption">По мере роста сложности агента растёт и сложность среды, с которой он справляется.</p>
+    <span class="page__num">02</span>
+    <img src="assets/img/canva-02.webp" alt="Бет 2" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="page" id="page-3">
-    <span class="page__num">05</span>
-    <img src="assets/img/03-search.webp" alt="Поиск в пространстве состояний" loading="lazy" width="1376" height="768">
-    <p class="page__caption">BFS идёт по уровням, DFS уходит в глубину ветки.</p>
-  </section>
-
-  <section class="page" id="page-12">
-    <span class="page__num">06</span>
-    <img src="assets/img/12.webp" alt="Поиск: лабиринт" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">Поиск — лабиринт</div>
-        <div class="page__speech">«В лабиринте без карты можно идти вглубь (DFS) или по уровням (BFS). Второе быстрее к выходу, но занимает больше памяти.»</div>
-      </div>
-    </div>
-    <p class="page__caption">DFS экономит память, но может уйти в тупик. BFS гарантирует кратчайший путь.</p>
+    <span class="page__num">03</span>
+    <img src="assets/img/canva-03.webp" alt="Бет 3" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="page" id="page-4">
-    <span class="page__num">07</span>
-    <img src="assets/img/04-heuristic.webp" alt="Эвристика и A*" loading="lazy" width="1376" height="768">
-    <p class="page__caption">A* не перебирает всё: эвристика отсекает лишние пути.</p>
-  </section>
-
-  <section class="page" id="page-13">
-    <span class="page__num">08</span>
-    <img src="assets/img/13.webp" alt="Эвристика: расстояние" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">Эвристика — расстояние</div>
-        <div class="page__speech">«Эвристика — это как расстояние по прямой. Она не всегда достижима, но быстро подсказывает, куда идти.»</div>
-      </div>
-    </div>
-    <p class="page__caption">Евклидово расстояние — самая простая эвристика для поиска пути на карте.</p>
-  </section>
-
-  <section class="page" id="page-14">
-    <span class="page__num">09</span>
-    <img src="assets/img/14.webp" alt="Эвристика: допустимость" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">Эвристика — допустимость</div>
-        <div class="page__speech">«Эвристика допустима, если она никогда не завышает реальный путь. Иначе A* потеряет оптимальность и пойдёт не туда.»</div>
-      </div>
-    </div>
-    <p class="page__caption">Допустимая эвристика никогда не переоценивает расстояние до цели.</p>
+    <span class="page__num">04</span>
+    <img src="assets/img/canva-04.webp" alt="Бет 4" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="page" id="page-5">
-    <span class="page__num">10</span>
-    <img src="assets/img/05-games.webp" alt="Игры: минимакс" loading="lazy" width="1376" height="768">
-    <p class="page__caption">Минимакс считает выгоду, альфа-бета выбрасывает глупые ветки.</p>
-  </section>
-
-  <section class="page" id="page-15">
-    <span class="page__num">11</span>
-    <img src="assets/img/15.webp" alt="Игры: глубина поиска" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">Глубина поиска</div>
-        <div class="page__speech">«Глубина поиска — это как взглянуть на 10 ходов вперёд. Но каждый ход умножает варианты. Без отсечения — взрыв комбинаторики.»</div>
-      </div>
-    </div>
-    <p class="page__caption">В шахматах 35 ходов в среднем. Глубина 6 — это 35^6 = 1,8 миллиарда позиций.</p>
-  </section>
-
-  <section class="page" id="page-16">
-    <span class="page__num">12</span>
-    <img src="assets/img/16.webp" alt="Игры: альфа-бета" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">Альфа-бета отсечение</div>
-        <div class="page__speech">«Альфа-бета говорит: если уже нашли ход лучше, чем этот, — эту ветку можно не смотреть. Экономия огромная.»</div>
-      </div>
-    </div>
-    <p class="page__caption">Альфа-бета не меняет результат минимакса, но сокращает перебираемые позиции в сотни раз.</p>
+    <span class="page__num">05</span>
+    <img src="assets/img/canva-05.webp" alt="Бет 5" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="page" id="page-6">
-    <span class="page__num">13</span>
-    <img src="assets/img/06-logic.webp" alt="Логика и база знаний" loading="lazy" width="1376" height="768">
-    <p class="page__caption">Правила и факты дают новые выводы — это база знаний.</p>
-  </section>
-
-  <section class="page" id="page-17">
-    <span class="page__num">14</span>
-    <img src="assets/img/17.webp" alt="Логика: правила" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">Логика — правила</div>
-        <div class="page__speech">«Логика предикатов — это правила языка. Если Сократ — человек, и все люди смертны, то Сократ смертен. Так работает вывод.»</div>
-      </div>
-    </div>
-    <p class="page__caption">Предикат — это утверждение, которое может быть истинным или ложным.</p>
-  </section>
-
-  <section class="page" id="page-18">
-    <span class="page__num">15</span>
-    <img src="assets/img/18.webp" alt="Логика: вывод" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">Логика — вывод</div>
-        <div class="page__speech">«Вывод — это как домино. Из одних фактов падают другие. Правила говорят, в каком порядке.»</div>
-      </div>
-    </div>
-    <p class="page__caption">Прямой вывод идёт от фактов к последствиям. Обратный — от цели к фактам.</p>
+    <span class="page__num">06</span>
+    <img src="assets/img/canva-06.webp" alt="Бет 6" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="page" id="page-7">
-    <span class="page__num">16</span>
-    <img src="assets/img/07-bayes.webp" alt="Вероятности и Байес" loading="lazy" width="1376" height="768">
-    <p class="page__caption">Байес пересчитывает вероятность, когда приходят новые улики.</p>
-  </section>
-
-  <section class="page" id="page-19">
-    <span class="page__num">17</span>
-    <img src="assets/img/19.webp" alt="Байес: приоритет" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">Байес — приоритет</div>
-        <div class="page__speech">«Приоритет — это то, что мы знаем до наблюдения. Не было дождя 10 дней — значит, вероятность дождя низкая, но не ноль.»</div>
-      </div>
-    </div>
-    <p class="page__caption">P(A) — наше убеждение до новых данных. Байес позволяет его обновлять.</p>
-  </section>
-
-  <section class="page" id="page-20">
-    <span class="page__num">18</span>
-    <img src="assets/img/20.webp" alt="Байес: лайклихуд" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">Байес — лайклихуд</div>
-        <div class="page__speech">«Лайклихуд — это как данные согласуются с гипотезой. Увидели мокрую траву — вероятность дождя выросла.»</div>
-      </div>
-    </div>
-    <p class="page__caption">P(B|A) — вероятность увидеть данные, если гипотеза верна.</p>
-  </section>
-
-  <section class="page" id="page-21">
-    <span class="page__num">19</span>
-    <img src="assets/img/21.webp" alt="Байес: апостериор" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">Байес — апостериор</div>
-        <div class="page__speech">«Апостериорная вероятность — это приоритет, обновлённый данными. Байес — это способ учиться на ходу: вчера верил в одно, сегодня — в другое.»</div>
-      </div>
-    </div>
-    <p class="page__caption">P(A|B) — итоговая вера после того, как увидели данные B.</p>
+    <span class="page__num">07</span>
+    <img src="assets/img/canva-07.webp" alt="Бет 7" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="page" id="page-8">
-    <span class="page__num">20</span>
-    <img src="assets/img/08-mdp.webp" alt="Марковские процессы (MDP)" loading="lazy" width="1376" height="768">
-    <p class="page__caption">MDP: состояние, действие, награда — и шаг за шагом к максимуму.</p>
-  </section>
-
-  <section class="page" id="page-22">
-    <span class="page__num">21</span>
-    <img src="assets/img/22.webp" alt="MDP: состояния" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">MDP — состояния</div>
-        <div class="page__speech">«Состояние — это снимок мира в момент времени. Где дрон, как быстро летит, куда смотрит. Всё, что нужно для решения.»</div>
-      </div>
-    </div>
-    <p class="page__caption">S — множество всех возможных состояний среды.</p>
-  </section>
-
-  <section class="page" id="page-23">
-    <span class="page__num">22</span>
-    <img src="assets/img/23.webp" alt="MDP: действия" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">MDP — действия</div>
-        <div class="page__speech">«Действие — это то, что агент может сделать. Пять кнопок, пять возможностей. Выбор зависит от состояния.»</div>
-      </div>
-    </div>
-    <p class="page__caption">A — множество действий. В каждом состоянии доступны не все действия.</p>
-  </section>
-
-  <section class="page" id="page-24">
-    <span class="page__num">23</span>
-    <img src="assets/img/24.webp" alt="MDP: награда" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">MDP — награда</div>
-        <div class="page__speech">«Награда — это число, которое говорит: хорошо или плохо. Цель агента — набрать как можно больше за всю жизнь.»</div>
-      </div>
-    </div>
-    <p class="page__caption">R — функция награды. Агент стремится максимизировать суммарную награду, а не только ближайшую.</p>
+    <span class="page__num">08</span>
+    <img src="assets/img/canva-08.webp" alt="Бет 8" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="page" id="page-9">
+    <span class="page__num">09</span>
+    <img src="assets/img/canva-09.webp" alt="Бет 9" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-10">
+    <span class="page__num">10</span>
+    <img src="assets/img/canva-10.webp" alt="Бет 10" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-11">
+    <span class="page__num">11</span>
+    <img src="assets/img/canva-11.webp" alt="Бет 11" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-12">
+    <span class="page__num">12</span>
+    <img src="assets/img/canva-12.webp" alt="Бет 12" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-13">
+    <span class="page__num">13</span>
+    <img src="assets/img/canva-13.webp" alt="Бет 13" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-14">
+    <span class="page__num">14</span>
+    <img src="assets/img/canva-14.webp" alt="Бет 14" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-15">
+    <span class="page__num">15</span>
+    <img src="assets/img/canva-15.webp" alt="Бет 15" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-16">
+    <span class="page__num">16</span>
+    <img src="assets/img/canva-16.webp" alt="Бет 16" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-17">
+    <span class="page__num">17</span>
+    <img src="assets/img/canva-17.webp" alt="Бет 17" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-18">
+    <span class="page__num">18</span>
+    <img src="assets/img/canva-18.webp" alt="Бет 18" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-19">
+    <span class="page__num">19</span>
+    <img src="assets/img/canva-19.webp" alt="Бет 19" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-20">
+    <span class="page__num">20</span>
+    <img src="assets/img/canva-20.webp" alt="Бет 20" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-21">
+    <span class="page__num">21</span>
+    <img src="assets/img/canva-21.webp" alt="Бет 21" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-22">
+    <span class="page__num">22</span>
+    <img src="assets/img/canva-22.webp" alt="Бет 22" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-23">
+    <span class="page__num">23</span>
+    <img src="assets/img/canva-23.webp" alt="Бет 23" loading="lazy" width="904" height="1280">
+  </section>
+
+  <section class="page" id="page-24">
     <span class="page__num">24</span>
-    <img src="assets/img/09-rl.webp" alt="Обучение с подкреплением" loading="lazy" width="1376" height="768">
-    <p class="page__caption">Обучение с подкреплением: ошибка — штраф, верный шаг — награда.</p>
+    <img src="assets/img/canva-24.webp" alt="Бет 24" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="page" id="page-25">
     <span class="page__num">25</span>
-    <img src="assets/img/25.webp" alt="RL: разведка" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">RL — разведка</div>
-        <div class="page__speech">«Разведка против эксплуатации: идти известным путём или пробовать новый? Умный агент балансирует.»</div>
-      </div>
-    </div>
-    <p class="page__caption">Exploration — пробовать новое, чтобы узнать, не лучше ли оно.</p>
+    <img src="assets/img/canva-25.webp" alt="Бет 25" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="page" id="page-26">
     <span class="page__num">26</span>
-    <img src="assets/img/26.webp" alt="RL: эксплуатация" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">RL — эксплуатация</div>
-        <div class="page__speech">«Эксплуатация — это использовать то, что уже знаешь. Путь давал +100 — иди по нему снова и снова.»</div>
-      </div>
-    </div>
-    <p class="page__caption">Exploitation — выбирать действие с лучшей известной наградой.</p>
+    <img src="assets/img/canva-26.webp" alt="Бет 26" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="page" id="page-27">
     <span class="page__num">27</span>
-    <img src="assets/img/27.webp" alt="RL: Q-обучение" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">RL — Q-обучение</div>
-        <div class="page__speech">«Q-обучение хранит для каждого состояния-действия оценку: сколько наград получу, если сделаю это. И обновляет её после каждого шага.»</div>
-      </div>
-    </div>
-    <p class="page__caption">Q(s,a) — ожидаемая суммарная награда за действие a в состоянии s.</p>
+    <img src="assets/img/canva-27.webp" alt="Бет 27" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="page" id="page-28">
     <span class="page__num">28</span>
-    <img src="assets/img/28.webp" alt="RL: политика" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">RL — политика</div>
-        <div class="page__speech">«Политика — это стратегия агента: в каждом состоянии какое действие выбирать. Оптимальная политика даёт максимум наград.»</div>
-      </div>
-    </div>
-    <p class="page__caption">π — политика. Оптимальная π* максимизирует ожидаемую суммарную награду.</p>
+    <img src="assets/img/canva-28.webp" alt="Бет 28" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="page" id="page-29">
     <span class="page__num">29</span>
-    <img src="assets/img/29.webp" alt="Финал курса" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">Финал курса</div>
-        <div class="page__speech">«Девять идей — девять кирпичей ИИ. Дальше — практика. Берите любую и стройте.»</div>
-      </div>
-    </div>
-    <p class="page__caption">Агенты, поиск, эвристики, игры, логика, Байес, MDP, RL — это фундамент.</p>
+    <img src="assets/img/canva-29.webp" alt="Бет 29" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="page" id="page-30">
     <span class="page__num">30</span>
-    <img src="assets/img/30.webp" alt="Карта курса" loading="lazy" width="1376" height="768">
-    <div class="page__dialogue">
-      <div class="page__avatar">П</div>
-      <div class="page__bubble">
-        <div class="page__title">Карта курса</div>
-        <div class="page__speech">«Карта всего курса: от введения до обучения с подкреплением. Выбирайте, с чего начать.»</div>
-      </div>
-    </div>
-    <p class="page__caption">Каждый раздел — отдельный мир. Соединив их, вы получите настоящего ИИ.</p>
+    <img src="assets/img/canva-30.webp" alt="Бет 30" loading="lazy" width="904" height="1280">
   </section>
 
   <section class="end">
-    <p class="end__title">Конец конспекта</p>
-    <p class="end__text">Тридцать страниц — тридцать идей, на которых держится ИИ.</p>
-    <a class="end__link" href="#top">Наверх ↑</a>
+    <p class="end__title">Конспект аяқталды</p>
+    <p class="end__text">Отыз бет — отыз идея, оның үстінде AI тұр.</p>
+    <a class="end__link" href="#top">Жоғары ↑</a>
   </section>
 
 </main>
 
 <footer class="footer">
-  <p>Авторы: Рыскадыр Бекнур и Ералы · QAIRU · манга-конспект по искусственному интеллекту</p>
-  <p class="footer__hint">Листай стрелками ← → или пробелом</p>
+  <p>Авторы: Рыскадыр Бекнур и Ералы · QAIRU · манга-конспект по ИИ</p>
+  <p class="footer__hint">Стрелкалармен ← → немесе пробелмен парақтаңыз</p>
 </footer>
 
 <script src="assets/js/reader.js"></script>
