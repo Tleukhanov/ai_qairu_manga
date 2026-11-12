@@ -52,3 +52,8 @@ GitHub Pages, ветка `main`, папка `/ (root)`.
 ## Авторы
 - Рыскадыр Бекнур
 - Ералы (Tleukhanov)
+
+---
+
+**Build. Learn. Understand.**
+© Ералы Тлеуханов · [tleukhanov.me](https://tleukhanov.me)
